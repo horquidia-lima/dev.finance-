@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <title>dev.finance$</title>
 </head>
 <body>
@@ -11,7 +15,7 @@
         <h1>dev.finance$</h1>
     </header>
 
-    <main>
+    <main class="container">
         <section id="balance">
             <h2>Resume</h2>
 
@@ -23,7 +27,7 @@
                 <h3>Retirado</h3>
                 <p>$ 2.000,00</p>
             </div>
-            <div class="card">
+            <div class="card total">
                 <h3>Total</h3>
                 <p>$ 3.000,00</p>
             </div>   
@@ -41,19 +45,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Luz</td>
-                        <td>$ 500,00</td>
-                        <td>23/01/2021</td>
+                        <td class="description">Luz</td>
+                        <td class="expense">$ 500,00</td>
+                        <td class="date">23/01/2021</td>
                     </tr>
                     <tr>
-                        <td>Creacion website</td>
-                        <td>$ 5.000,00</td>
-                        <td>20/01/2021</td>
+                        <td class="description">Creacion website</td>
+                        <td class="income">$ 5.000,00</td>
+                        <td class="date">20/01/2021</td>
                     </tr>
                     <tr>
-                        <td>Internet</td>
-                        <td>$ 200,00</td>
-                        <td>25/01/2021</td>
+                        <td class="description">Internet</td>
+                        <td class="expense">$ 200,00</td>
+                        <td class="date">25/01/2021</td>
                     </tr>
                 </tbody>
             </table>
